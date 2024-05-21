@@ -9,7 +9,7 @@ export default function Home() {
           <h3>About Me</h3>
           <div style={{ paddingLeft: "7%", paddingTop: "2.5%", fontSize: "24px" }}>
             <p>
-              &nbsp;&nbsp;&nbsp;Daniel Barbieri is a Software Developer / IT QA Automation Tester. With experience as a summer student on Fortis Alberta's QA team using Worksoft to automate web apps, he also participated in a Worksoft update project where he witnessed the SDLC in its entirety in a waterfall development approach.
+              &nbsp;&nbsp;&nbsp;Daniel Barbieri is a Software Developer / IT QA Automation Tester. With experience as a summer student on Fortis Alberta&apos;s QA team using Worksoft to automate web apps, he also participated in a Worksoft update project where he witnessed the SDLC in its entirety in a waterfall development approach.
             </p>
             <br />
             <p>
@@ -17,7 +17,7 @@ export default function Home() {
             </p>
             <br />
             <p>
-              &nbsp;&nbsp;&nbsp;Daniel's current goals are to continue learning how to automate different business processes as well as continue to develop different types of software solutions.
+              &nbsp;&nbsp;&nbsp;Daniel&apos;s current goals are to continue learning how to automate different business processes as well as continue to develop different types of software solutions.
             </p>
             <br />
             <p>

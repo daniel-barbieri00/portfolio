@@ -147,14 +147,18 @@ th {
   border: 1px solid #60E6D6;
   padding: 15px;
   text-align: center;
+  background-color: #60E6D6;
 }
 
 td {
   border: 1px solid #60E6D6;
-  padding: 15px;
+  padding: 1%;
   text-align: left;
+  overflow: scroll;
 }
 
-th {
-  background-color: #60E6D6;
+.borderless-th {
+  padding: 1%;
+  text-align: left;
+  overflow: scroll;
 }

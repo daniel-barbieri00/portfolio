@@ -1,15 +1,15 @@
 import Header from "../utils/header";
 
 export default function Experience() {
-    return (
-      <div>
-        <Header />
-        <div className="page-container">
-          <h1 className="page-title">Work Experience</h1>
-        </div>
-        <div className="page-container" style={{ paddingLeft: "10%", paddingRight: "10%", paddingTop: "2%"}}>
-          <table className="page-text">
-
+  return (
+    <>
+      <Header />
+      <div className="page-container">
+        <h1 className="page-title">Work Experience</h1>
+      </div>
+      <div className="page-container" style={{ paddingLeft: "10%", paddingRight: "10%", paddingTop: "2%" }}>
+        <table className="page-text">
+          <thead>
             <tr style={{ fontSize: "28px" }}>
               <th>Place</th>
               <th>Title</th>
@@ -17,65 +17,60 @@ export default function Experience() {
               <th>Date</th>
               <th>Location</th>
             </tr>
-
-            
+          </thead>
+          <tbody>
             <tr>
               <td>Fortis Alberta</td>
               <td>IT QA Summer Student</td>
-
               <td>
-                <table>
-                  <tr>&nbsp;- Business Process Automation (Worksoft)</tr>
-                  <tr>&nbsp;- Create BRD for Worksoft Update Project</tr>
-                  <tr>&nbsp;- Execute test cases for multiple different projects</tr>
-                  <tr>&nbsp;- Shadow User Acceptance Testing for recently upgraded project</tr>
-                  <tr>&nbsp;- Present documents and update project progress to project team by scheduling meetings</tr>
-                </table>
+                <ul>
+                  <li>- Business Process Automation (Worksoft)</li>
+                  <li>- Create BRD for Worksoft Update Project</li>
+                  <li>- Execute test cases for multiple different projects</li>
+                  <li>- Shadow User Acceptance Testing for recently upgraded project</li>
+                  <li>- Present documents and update project progress to project team by scheduling meetings</li>
+                </ul>
               </td>
-
               <td>05/23 - 09/2023</td>
               <td>Calgary, Alberta</td>
             </tr>
-
-          
             <tr>
               <td>Pisces Pet Emporium</td>
               <td>Fish and Reptile Sales Associate | Small Animal Associate</td>
               <td>
-                <table>
-                  <tr>&nbsp;- Developed strong independent research skills to learn about the different species available for purchase </tr>
-                  <tr>&nbsp;- Created and maintained positive relationships with customers that promoted recurring business</tr>
-                  <tr>&nbsp;- Grew Conflict Resolution skills</tr>
-                  <tr>&nbsp;- Managed stock rotation weekly for over 6 months for items and livestock</tr>
-                  <tr>&nbsp;- Develop customer focused solutions to a multitude of different problems</tr>
-                </table>
+                <ul>
+                  <li>- Developed strong independent research skills to learn about the different species available for purchase</li>
+                  <li>- Created and maintained positive relationships with customers that promoted recurring business</li>
+                  <li>- Grew Conflict Resolution skills</li>
+                  <li>- Managed stock rotation weekly for over 6 months for items and livestock</li>
+                  <li>- Develop customer focused solutions to a multitude of different problems</li>
+                </ul>
               </td>
               <td>01/2021 - 09/2022</td>
               <td>Calgary, Alberta</td>
             </tr>
-
-
             <tr>
               <td>Staples</td>
               <td>Aisles Associate</td>
               <td>
-                <table>
-                  <tr>&nbsp;- Developed strong communication and problem analysis and solving.</tr>
-                  <tr>&nbsp;- Communication skills with many different departments around the store</tr>
-                  <tr>&nbsp;- Analyze plans on multiple documents and implement them together to create a final product </tr>
-                </table>
+                <ul>
+                  <li>- Developed strong communication and problem analysis and solving.</li>
+                  <li>- Communication skills with many different departments around the store</li>
+                  <li>- Analyze plans on multiple documents and implement them together to create a final product</li>
+                </ul>
               </td>
               <td>01/2016 - 08/2018, 06/2020 - 01/2021</td>
               <td>Airdrie, Alberta</td>
             </tr>
-
-          </table>
-        </div>
-        <div className="page-container">
-          <h1 className="page-title">Relevant Skills</h1>
-        </div>
-        <div className="page-container" style={{ paddingLeft: "10%", paddingRight: "10%", paddingBottom: "5%" }}>
-          <table className="page-text">
+          </tbody>
+        </table>
+      </div>
+      <div className="page-container">
+        <h1 className="page-title">Relevant Skills</h1>
+      </div>
+      <div className="page-container" style={{ paddingLeft: "10%", paddingRight: "10%", paddingBottom: "5%" }}>
+        <table className="page-text">
+          <tbody>
             <tr>
               <td>- Python</td>
               <td>- C#</td>
@@ -94,10 +89,10 @@ export default function Experience() {
               <td>- Problem Solving</td>
               <td>- Learning and Adapting to new Technologies</td>
             </tr>
-          </table>
-          </div>
-        <div className="navbar-container" />
+          </tbody>
+        </table>
       </div>
-    );
-  }
-  
+      <div className="navbar-container" />
+    </>
+  );
+}

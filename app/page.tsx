@@ -16,6 +16,30 @@ export default function Home() {
               &nbsp;&nbsp;&nbsp;He has completed a software development diploma at SAIT in Calgary, Alberta. During his studies, he learned many different development languages and development styles.
             </p>
             <br />
+            <div className="page-container" style={{ paddingLeft: "10%", paddingRight: "10%", paddingBottom: "5%" }}>
+              <table className="page-text">
+                <tbody>
+                  <tr>
+                    <td>- Python</td>
+                    <td>- C#</td>
+                    <td>- next.js / React</td>
+                    <td>- HTML</td>
+                  </tr>
+                  <tr>
+                    <td>- CSS</td>
+                    <td>- Javascript</td>
+                    <td>- Github</td>
+                    <td>- Worksoft</td>
+                  </tr>
+                  <tr>
+                    <td>- Customer Solutions</td>
+                    <td>- Business Gap Analysis</td>
+                    <td>- Problem Solving</td>
+                    <td>- Learning and Adapting to new Technologies</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
             <p>
               &nbsp;&nbsp;&nbsp;Daniel&apos;s current goals are to continue learning how to automate different business processes as well as continue to develop different types of software solutions.
             </p>
@@ -23,6 +47,7 @@ export default function Home() {
             <p>
               &nbsp;&nbsp;&nbsp;Daniel has had life-long interests in music and gaming. Having played drum set since the age of 12, he has also played saxophone and multiple different percussion instruments such as marimba. Recently, he has been exploring game development using his education to guide the process.
             </p>
+            <br /><br /> {/* this line is here for spacing */}
           </div>
         </div>
         <img

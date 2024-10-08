@@ -41,7 +41,7 @@ export default function Home() {
               </table>
             </div>
             <p>
-              &nbsp;&nbsp;&nbsp;Daniel&apos;s current goals are to continue learning how to automate different business processes as well as continue to develop different types of software solutions.
+              &nbsp;&nbsp;&nbsp;Daniel&apos;s current goals are to continue to learn and explore his passion for automation different business processes as well as continue to develop different types of software solutions. He has always had an interest in automation. Starting with setting up macros to complete actions in video games so he could level and simply walk away.
             </p>
             <br />
             <p>

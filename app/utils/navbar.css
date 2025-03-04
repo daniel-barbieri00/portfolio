@@ -1,0 +1,48 @@
+/* navbar.css */
+.navbar {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for horizontal layout */
+}
+
+.navbar li {
+    margin: 0 15px; /* Add some spacing between items */
+}
+
+.navbar-text {
+    text-decoration: none; /* Remove underline from links */
+    color: #9e810c; /* Default color for links */
+    transition: color 0.3s; /* Smooth transition for color change */
+    font-size: 36px;
+}
+
+.navbar-text.active {
+    color: #408f8a; /* Sky blue color for active link */
+    font-weight: bold; /* Make active link bold */
+}
+
+.navbar-text:hover {
+    color: #408f8a; /* Change color on hover */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center; /* Center the flex items horizontally */
+    width: 100%;
+
+}
+
+.navbar {
+
+    display: flex; /* Use flexbox for the navbar */
+    justify-content: space-between; /* Distribute space evenly between items */
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    width: 100%; /* Make the navbar take the full width of the container */
+}
+
+.navbar li {
+    flex: 1; /* Allow each list item to grow and take equal space */
+    text-align: center; /* Center the text within each list item */
+}

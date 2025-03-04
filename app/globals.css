@@ -36,7 +36,7 @@ h1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 48px;
   font-weight: bolder;
-  color: #60E6D6;
+  color: #408f8a;
   padding-left: 3%;
 }
 
@@ -44,7 +44,7 @@ h2 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 36px;
   font-weight: bolder;
-  color: #60E6D6;
+  color: #408f8a;
   padding-left: 3%;
   display: inline-block;
   flex-wrap: nowrap;
@@ -54,7 +54,7 @@ h3 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 48px;
   font-weight: bolder;
-  color: #424CA8;
+  color: #9e810c;
   padding-left: 6%;
   padding-top: 10%;
 }
@@ -81,7 +81,7 @@ h3 {
 }
 
 .navbar-container {
-  background-color: #60E6D6;
+  background-color: #ffe786;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -97,31 +97,30 @@ h3 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #424CA8;
+  color: #408f8a;
 }
 
 .navbar-spacer {
   flex: 20px 0 20px;
   font-weight: bolder;
-  color: #424CA8;
+  color: #408f8a;
 }
 
 .page-container {
-  background-color: #A2F4FF;
+  background-color: #ffffdd;
   display: flex;
 }
 
 .page-text {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #424CA8;
+  color: #9e810c;
   flex: 2;
   font-size: 20px;
 }
 
 .page-title {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #424CA8;
-  flex: 2;
+  color: #9e810c;
   font-size: 40px;
   padding-top: 2%;
   padding-bottom: 2%;
@@ -144,14 +143,14 @@ table {
 }
 
 th {
-  border: 1px solid #60E6D6;
+  border: 1px solid #ffe786;
   padding: 15px;
   text-align: center;
-  background-color: #60E6D6;
+  background-color: #ffe786;
 }
 
 td {
-  border: 1px solid #60E6D6;
+  border: 1px solid #ffe786;
   padding: 1%;
   text-align: left;
   overflow: scroll;

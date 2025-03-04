@@ -6,7 +6,6 @@ export default function Home() {
       <Header />
       <div className="page-container">
         <div className="page-text" style={{ paddingTop: "-5%" }}>
-          <h3>About Me</h3>
           <div style={{ paddingLeft: "7%", paddingTop: "2.5%", fontSize: "24px" }}>
             <p>
               &nbsp;&nbsp;&nbsp;Daniel Barbieri is a Software Developer / IT QA Automation Tester. With experience as a summer student on Fortis Alberta&apos;s QA team using Worksoft to automate web apps, he also participated in a Worksoft update project where he witnessed the SDLC in its entirety in a waterfall development approach.

@@ -4,11 +4,8 @@ export default function Experience() {
   return (
     <>
       <Header />
-      <div className="page-container">
-        <h1 className="page-title">Work Experience</h1>
-      </div>
-      <div className="page-container" style={{ paddingLeft: "10%", paddingRight: "10%", paddingTop: "2%" }}>
-        <table className="page-text">
+      <div className="page-container" style={{ paddingLeft: "10%", paddingRight: "10%", paddingTop: "2%", paddingBottom: "2%"}}>
+        <table className="page-text" style={{ width: "110%" }}>
           <thead>
             <tr style={{ fontSize: "28px" }}>
               <th>Place</th>
@@ -35,18 +32,18 @@ export default function Experience() {
               <td>Calgary, Alberta</td>
             </tr>
             <tr>
-              <td>Pisces Pet Emporium</td>
-              <td>Fish and Reptile Sales Associate | Small Animal Associate</td>
+              <td>PetSmart</td>
+              <td>Associate Lead with Keys</td>
               <td>
                 <ul>
                   <li>- Developed strong independent research skills to learn about the different species available for purchase</li>
                   <li>- Created and maintained positive relationships with customers that promoted recurring business</li>
-                  <li>- Grew Conflict Resolution skills</li>
-                  <li>- Managed stock rotation weekly for over 6 months for items and livestock</li>
-                  <li>- Develop customer focused solutions to a multitude of different problems</li>
+                  <li>- Coach team members in areas where performance needs to improve</li>
+                  <li>- Handle situations with upset customers and come to a solution that keeps positive relations</li>
+                  <li>- Complete complex processes such as closing the store, incident reports, inventory adjustments, etc.</li>
                 </ul>
               </td>
-              <td>01/2021 - 09/2022</td>
+              <td>06/2024 - Present</td>
               <td>Calgary, Alberta</td>
             </tr>
             <tr>
@@ -61,33 +58,6 @@ export default function Experience() {
               </td>
               <td>01/2016 - 08/2018, 06/2020 - 01/2021</td>
               <td>Airdrie, Alberta</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div className="page-container">
-        <h1 className="page-title">Relevant Skills</h1>
-      </div>
-      <div className="page-container" style={{ paddingLeft: "10%", paddingRight: "10%", paddingBottom: "5%" }}>
-        <table className="page-text">
-          <tbody>
-            <tr>
-              <td>- Python</td>
-              <td>- C#</td>
-              <td>- next.js / React</td>
-              <td>- HTML</td>
-            </tr>
-            <tr>
-              <td>- CSS</td>
-              <td>- Javascript</td>
-              <td>- Github</td>
-              <td>- Worksoft</td>
-            </tr>
-            <tr>
-              <td>- Customer Solutions</td>
-              <td>- Business Gap Analysis</td>
-              <td>- Problem Solving</td>
-              <td>- Learning and Adapting to new Technologies</td>
             </tr>
           </tbody>
         </table>

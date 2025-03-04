@@ -5,10 +5,7 @@ export default function Projects() {
   return (
     <div>
       <Header />
-      <div className="page-container">
-        <h1 className="page-title">Projects Page</h1>
-      </div>
-      <div className="page-container" style={{ paddingBottom: "20%" }}>
+      <div className="page-container" style={{ paddingBottom: "20%", paddingTop: "3%" }}>
         <table className="page-text">
           <tbody>
             <tr>
